@@ -1,0 +1,98 @@
+/* Resetando alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    background: black;
+    color: white;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #ba1367;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2rem;
+}
+
+/* seção sobre os noivos */
+#about {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Seção do evento */
+#event {
+    padding: 40px;
+    background-color: #ba1367;
+    text-align: center;
+}
+
+#event h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#event p {
+    font-size: 1.2rem;
+}
+
+/* Seção de RSVP */
+#rsvp {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#rsvp h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 29px;
+    background-color: #ff7f50;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>casamento</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Nosso Casamento</h1>
+        <p>Estamos muito felizes em compartilhar este momento com você!</p>
+    </header>
+
+    <!-- Seção sobre os noivos -->
+    <section id="adout">
+        <h2>Sobre nós</h2>
+        <p>Somos Davi e alek. Nos conhecemos em 2023 e desde então começamos a construir nossa historia de amor. Agora, estamos prontos para dar o proximo passo em nossa jornada juntos.</p>
+    </section>
+    <!-- seção dp evento -->
+    <section id="event">
+        <h2>O Grande Dia</h2>
+        <p>Data:<strong>30 de fevereiro de 2025</strong></p>
+        <p>Horário:<strong>15:00</strong></p>
+        <p>Local:<strong>Igreja Santa Maria, Rua Thomas Thurbando Na Casa Do Caralho Numero 69</strong></p>
+    </section>
+    <!-- seção do confirmação de Presença-->
+    <section id="confirmação">
+        <h2>confirmação de Presença</h2>
+        <form id="rsvp-form">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" required>
+            <label for="Presenca">Você irá comparecer?</label>
+            <select id="Presenca" required>
+                <option value="">Selecione</option>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem"></p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <p>Confira algumas fotos nossas!</p>
+        <div class="galeria-imagens">
+            <img src="/img/1000016766.jpg" alt="Imagem 1" width="200" height="350">
+            <img src="/img/1730841220365.jpg " alt="Imagem 2" width="200" height="350">
+            <video controls width="640" height="360">
+                <source src="/img/lv_7375997258787081478_20241126172953.mp4">
+            </video>
+        </div>
+    </section>
+
+    <footer>
+        <p>Dev; Pierre, 2025 Nome do Noivo Davi e Nome da Noiva Alek. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
